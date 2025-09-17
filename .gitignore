@@ -1,0 +1,22 @@
+# Arquivos de log
+*.log
+
+# Arquivos gerados pelo Maven
+target/
+
+# Arquivos de configuração de IDEs populares
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
