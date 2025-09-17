@@ -13,7 +13,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/juniorcmauricio/INF335_Pipeline_Jenkinsfile'
 
                 // Run Maven on a Unix agent.
-                sh "cd meu-app; mvn -Dmaven.test.failure.ignore=true clean package"
+                sh "mvn -Dmaven.test.failure.ignore=true clean package"
 
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
